@@ -30,6 +30,8 @@ This is an online CV + Portfolio for Nicola, who is a designer and full stack de
 
 ## User Stories
 
+The site's users are recruiters considering to hire the applicant. They are considering the candidate that matches with their needs.
+
 ## UX
 
 This website is only about one subject, and it is important to have a first good impression and a pleasing experience, to achieve the final goal.
@@ -51,6 +53,29 @@ This website is only about one subject, and it is important to have a first good
 > - Fixed footer provide quick and easy-to-find reference to Social Media links.
 > - Users can contact the customer in a variety of ways, through contact form, phone, email and Social Media.
 > - Simple design and architecture of the website, fast to view.
+
+### SCOPE
+How can employers easily evaluate Nicola’s skills?
+What does the employer need to do it?
+A recruiter wants to:
+> - view the skill sets.
+> - see work history.
+> - discover a portfolio that showcases the actual proficiency of work skills.
+> - get personal details.
+> - easily contact the candidate. 
+I've decided on a clean UX for users. It is useful for the scope and it fits my current skill set.
+The focus is on keeping things simple and useful.
+
+### STRUCTURE
+
+> - I have chosen a one page website design. 
+> - The structure is linear and allows users to have a general impression by scrolling through the sections in a fast and simple way without losing anything. 
+> - With short and focused paragraphs of content, users can quickly assimilate the information and imagery, so the level of attention remains constant.
+> - Informations provided is enough and not overwhelming. Specific extra infos are accessible through selection and direct user interaction.
+> - Animations are simple and essential.
+> - The user can choose the preferred way of contacting the candidate via email, phone, contact form and links to Social Media at the bottom of the page and in the Footer.
+> - The fixed navbar helps to easily jump from one section to another.
+
 
 ## Features
 
