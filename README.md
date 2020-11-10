@@ -1,4 +1,4 @@
-# Nicola’s online CV  -  XXXXX this will a link to the actual site
+# [Nicola’s online CV](https://nicolalampis.github.io/Nicola_online_CV/)
 
 Screenshot 
 Concept
