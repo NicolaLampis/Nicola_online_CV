@@ -109,11 +109,20 @@ body {
   position: relative;
 }
 
-.background h2 {
+.background h2, .skills h2 {
   text-align: center;
-  margin: 25px 0;
+  margin: 35px 0;
   color: #e45200;
 }
+
+hr.section-divider-orange {
+background-color: #e45200;
+height: 5px;
+border: none;
+width: 38px;
+margin-bottom: 40px;
+}
+
 .frame {
   margin: 5px 0;
   text-align: center;
@@ -181,8 +190,23 @@ font-size: 15px;
 font-weight: 300;
 }
 
+/* ----------------------- Skills */
 
+.skills h4, .skills h5 {
+  text-align: center;
+  margin: 14px 4px;
+  color: #e45200;  
+}
 
+  .skills p {
+  text-align: center;
+  color: rgb(48, 48, 48);
+  } 
+
+.skills-design {
+    
+    padding: 0px 15px 20px 15px;
+}
 
 
 /* ----------------------- XXX */
