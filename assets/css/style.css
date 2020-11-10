@@ -103,9 +103,89 @@ body {
   margin-top: 8px;
 }
 
+/* ----------------------- Background */
+
+.background-container {
+  position: relative;
+}
+
+.background h2 {
+  text-align: center;
+  margin: 25px 0;
+  color: #e45200;
+}
+.frame {
+  margin: 5px 0;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  border: 1px dotted #e7e7e7;
+}
+
+.frame i {
+  font-size: 34px;
+  padding: 18px 5px;
+  color: #e45200;
+}
 
 
-/* ----------------------- Media Queries */
+/* Tooltip container */
+.tooltipq {
+  position: relative;
+  display: inline-block;
+  
+  }
+
+/* Tooltip text */
+.tooltipq .tooltiptextq {
+  visibility: hidden;
+  width: 160px;
+  background-color: rgba(0, 0, 0, 0.90);
+  color: #fff;
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 6px;
+  bottom: 80%;
+  left: 50%;
+  margin-left: -80px;
+position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+
+.tooltipq:hover .tooltiptextq  {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipq .tooltiptextq::after {
+  content: " ";
+  position: absolute;
+  top: 100%; 
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.90) transparent transparent transparent;
+}
+
+p.year, p.qualification {
+font-size: 12px;
+font-weight: 200;
+margin-bottom: 12px;
+}
+p.istitute {
+font-size: 14px;
+font-weight: 300;
+}
+
+
+
+
+
+/* ----------------------- XXX */
 
 @media (max-width: 370px) {
   .about-square {
