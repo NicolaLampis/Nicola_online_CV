@@ -228,7 +228,7 @@ form {
 }
 
 .button {
-    margin: 18px 0;
+    margin: 18px 0 50px 0;
     width: 200px;
     color: #a13b00;
     font-weight: 700;
@@ -246,10 +246,31 @@ label {
     margin-bottom: 5px
 }
 
+
+
 /* ----------------------- Footer */
 
 footer {
-    background: linear-gradient(to left, #5382ad, #6e53ad)
+    background: linear-gradient(to right, #5382ad, #6e53ad)
+}
+
+.personal-info, .social-media {
+    margin: 0;
+    padding:15px;
+    color: #e7e7e7;
+}
+.personal-info {
+    min-width: 245px;
+}
+
+.personal-info p {
+    
+    margin-bottom: 6px;
+}
+
+.social-media i {
+    font-size: 40px;
+    margin: 10px 20px 10px 0;
 }
 
 
