@@ -175,8 +175,82 @@ p.istitute {
     background-color: #e7e7e7;
 }
  .media-card {
-     font-size: 20px;
+     font-size: 25px;
+     padding-right: 10px
  }
+
+
+/* ----------------------- Contact */
+
+.contact-container {
+    background-image: url(../images/vortice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact h2 {
+  text-align: center;
+  margin: 35px 0;
+  color: #e7e7e7;
+  font-weight: 600;
+}
+
+.section-divider-white {
+  background-color: #e7e7e7;
+  height: 5px;
+  border: none;
+  width: 38px;
+  margin-bottom: 40px;
+}
+
+
+form {
+    max-width: 500px;
+    left: 50%;
+    margin: auto;
+   
+}
+
+.cell, .button {
+  
+  width: 100%;
+  padding: 6px;
+  margin: 0 0 15px 0;
+  resize: vertical;
+    border: 1px solid  #e7e7e780;
+  border-radius: 6px;
+}
+
+.cell {
+    width: 100%;
+    background-color: #e7e7e721;
+}
+
+.button {
+    margin: 18px 0;
+    width: 200px;
+    color: #a13b00;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #95b4ceaf;
+ }
+
+.cell:hover, .button:hover {
+    border-color:  #e45200;
+}
+
+label {
+    color: #e7e7e7;
+    font-weight: 500;
+    margin-bottom: 5px
+}
+
+/* ----------------------- Footer */
+
+footer {
+    background: linear-gradient(to left, #5382ad, #6e53ad)
+}
 
 
 /* ----------------------- XXX */
