@@ -107,7 +107,8 @@ body {
 }
 
 .background h2,
-.skills h2 {
+.skills h2, 
+.portfolio h2 {
   text-align: center;
   margin: 35px 0;
   color: #e45200;
@@ -160,9 +161,23 @@ p.istitute {
   margin-bottom: 15px;
 }
 
+.col-margin-max {
+  margin-bottom: 40px;
+}
+
 .card-skills {
   margin-top: 15px;
 }
+
+/* ----------------------- Portfolio */
+
+.portfolio-container {
+    background-color: #e7e7e7;
+}
+ .media-card {
+     font-size: 20px;
+ }
+
 
 /* ----------------------- XXX */
 
