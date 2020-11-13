@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Barlow", sans-serif;
+    font-family: "Barlow", sans-serif;
 }
 
 .uppercase {
@@ -40,7 +40,10 @@ body {
 
 /* ----------------------- About */
 .about-container {
-  background-color: #e7e7e7;
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   min-height: 100vh;
 }
@@ -48,29 +51,30 @@ body {
 .about-square h1 {
   font-weight: 600;
   font-family: "Anton", sans-serif;
-  font-size: 80px;
+  
   color: #e7e7e7;
+  text-shadow: 5px 10px 15px #314c74;
 }
 
 .about-square {
   width: 100%;
   margin: auto;
-  background-image: linear-gradient(#6e53ad, #5382ad);
-  margin-top: 98px;
-  height: 71vh;
-  max-width: 470px;
+  
+  margin-top: 49px;
+  
+  
 }
 
 .line-one {
-  text-align: left;
+  text-align: center;
   position: relative;
   left: -2px;
-  padding: 9vh 0 3vh 0;
+  padding: 8vh 0 3vh 0;
 }
 
 .line-two {
-  text-align: right;
-  padding: 3vh 0 9vh 0;
+  text-align: center;
+  padding: 3vh 0 1vh 0;
 }
 
 .block-divider {
@@ -78,9 +82,11 @@ body {
   width: 40%;
   height: 5px;
   margin: 1vh auto;
+  box-shadow: 5px 10px 15px #314c74;
 }
 
 .about-hello {
+    text-align: center;
   font-family: "Barlow", sans-serif;
   font-weight: 500;
   color: rgb(48, 48, 48);
@@ -90,14 +96,13 @@ body {
 }
 
 .about-hello-position {
-  position: absolute;
-  bottom: 0;
+  
   letter-spacing: 2px;
 }
 
 .about-hello-iam {
   text-align: center;
-  margin-top: 8px;
+  margin: 2px 0;
 }
 
 /* ----------------------- Background */
@@ -274,7 +279,7 @@ footer {
 }
 
 
-/* ----------------------- XXX */
+/* ----------------------
 
 @media (max-width: 370px) {
   .about-square {
@@ -284,5 +289,23 @@ footer {
   .about-square h1 {
     font-family: "Anton", sans-serif;
     font-size: 50px;
+  }
+}
+
+--------------- XXX */
+
+@media only screen and (orientation: landscape) {
+  .about-square h1 {
+    
+    font-size: 14vmin;
+    color: #e7e7e7;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  .about-square h1 {
+    
+    font-size: 17vmin;
+    color: #e7e7e7;
   }
 }
