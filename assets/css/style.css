@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-    font-family: "Barlow", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .uppercase {
@@ -51,7 +51,7 @@ body {
 .about-square h1 {
   font-weight: 600;
   font-family: "Anton", sans-serif;
-  
+
   color: #e7e7e7;
   text-shadow: 5px 10px 15px #314c74;
 }
@@ -59,51 +59,41 @@ body {
 .about-square {
   width: 100%;
   margin: auto;
-  
+
   margin-top: 49px;
-  
-  
 }
 
-.line-one {
-  text-align: center;
-  position: relative;
-  margin-bottom: 1vh;
-  padding: 8vh 0 3vh 0;
-}
-
-.line-two {
+.line-developer {
   text-align: center;
   margin-bottom: 1vh;
-  padding: 3vh 0 1vh 0;
+  padding: 15vh 2vw 0 2vw;
 }
 
 .block-divider {
   background-color: #e45200;
-  width: 40%;
+  width: 20%;
   height: 5px;
-  margin: 0.8vh auto;
+  margin: 5vh auto;
   box-shadow: 5px 10px 15px #314c74;
 }
 
 .about-hello {
-    text-align: center;
+  text-align: center;
   font-family: "Barlow", sans-serif;
-  font-weight: 500;
   color: rgb(48, 48, 48);
-  font-size: 20px;
-  padding: 0.5vh 0;
+  font-size: 35px;
+  padding: 0.8vh 0;
   margin: 0;
 }
 
 .about-hello-position {
-  
   letter-spacing: 2px;
+  font-weight: 600;
 }
 
 .about-hello-iam {
   text-align: center;
-  
+  font-weight: 500;
 }
 
 /* ----------------------- Background */
@@ -113,10 +103,10 @@ body {
 }
 
 .background h2,
-.skills h2, 
+.skills h2,
 .portfolio h2 {
   text-align: center;
-  margin: 35px 0;
+  padding: 35px 0;
   color: #e45200;
   font-weight: 600;
 }
@@ -140,7 +130,11 @@ p.istitute {
   font-weight: 300;
 }
 
-/* ----------------------- Skills */
+#background-point {
+  padding-top: 49px;
+  margin-top: -49px;
+}
+/* ----------------------- Skills / Experiences */
 
 .skills h3,
 .skills h4,
@@ -157,7 +151,6 @@ p.istitute {
 }
 
 .card-logo {
-  text-align: right;
   color: #e45200;
   font-size: 25px;
   margin: 0px 8px 10px 0px;
@@ -168,36 +161,44 @@ p.istitute {
 }
 
 .col-margin-max {
-  margin-bottom: 40px;
+  margin-bottom: 89px;
 }
 
 .card-skills {
   margin-top: 15px;
 }
 
+#experiences-point {
+  padding-top: 49px;
+  margin-top: -49px;
+}
 /* ----------------------- Portfolio */
 
 .portfolio-container {
-    background-color: #e7e7e7;
+  background-color: #e7e7e7;
 }
- .media-card {
-     font-size: 25px;
-     padding-right: 10px
- }
+.media-card {
+  font-size: 25px;
+  padding-right: 10px;
+}
 
+#portfolio-point {
+  padding-top: 49px;
+  margin-top: -49px;
+}
 
 /* ----------------------- Contact */
 
 .contact-container {
-    background-image: url(../images/vortice.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-image: url(../images/vortice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .contact h2 {
   text-align: center;
-  margin: 35px 0;
+  padding: 35px 0;
   color: #e7e7e7;
   font-weight: 600;
 }
@@ -210,75 +211,75 @@ p.istitute {
   margin-bottom: 40px;
 }
 
-
 form {
-    max-width: 500px;
-    left: 50%;
-    margin: auto;
-   
+  max-width: 500px;
+  left: 50%;
+  margin: auto;
 }
 
-.cell, .button {
-  
+.cell,
+.button {
   width: 100%;
   padding: 6px;
   margin: 0 0 15px 0;
   resize: vertical;
-    border: 1px solid  #e7e7e780;
+  border: 1px solid #e7e7e780;
   border-radius: 6px;
 }
 
 .cell {
-    width: 100%;
-    background-color: #e7e7e721;
+  width: 100%;
+  background-color: #e7e7e721;
 }
 
 .button {
-    margin: 18px 0 50px 0;
-    width: 200px;
-    color: #a13b00;
-    font-weight: 700;
-    letter-spacing: 1px;
-    background-color: #95b4ceaf;
- }
+  margin: 18px 0 50px 0;
+  width: 200px;
+  color: #a13b00;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background-color: #95b4ceaf;
+}
 
-.cell:hover, .button:hover {
-    border-color:  #e45200;
+.cell:hover,
+.button:hover {
+  border-color: #e45200;
 }
 
 label {
-    color: #e7e7e7;
-    font-weight: 500;
-    margin-bottom: 5px
+  color: #e7e7e7;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 
-
-
+#contact-point {
+  padding-top: 49px;
+  margin-top: -49px;
+}
 /* ----------------------- Footer */
 
 footer {
-    background: linear-gradient(to right, #5382ad, #6e53ad)
+  background: linear-gradient(to right, #5382ad, #6e53ad);
 }
 
-.personal-info, .social-media {
-    margin: 0;
-    padding:15px;
-    color: #e7e7e7;
+.personal-info,
+.social-media {
+  margin: 0;
+  padding: 15px;
+  color: #e7e7e7;
 }
 .personal-info {
-    min-width: 245px;
+  min-width: 245px;
 }
 
 .personal-info p {
-    
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .social-media i {
-    font-size: 40px;
-    margin: 10px 20px 10px 0;
+  font-size: 40px;
+  margin: 10px 20px 10px 0;
 }
-
 
 /* ----------------------
 
@@ -297,15 +298,13 @@ footer {
 
 @media only screen and (orientation: landscape) {
   .about-square h1 {
-    
-    font-size: 13vmin;
+    font-size: 15vmin;
     color: #e7e7e7;
   }
 }
 
 @media only screen and (orientation: portrait) {
   .about-square h1 {
-    
     font-size: 17vmin;
     color: #e7e7e7;
   }
