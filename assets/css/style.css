@@ -10,7 +10,7 @@ body {
   text-transform: uppercase;
 }
 
-/* ----------------------- Navbar */
+/* ---- Navbar ---- */
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
@@ -38,7 +38,7 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
-/* ----------------------- About */
+/* ---- About ---- */
 .about-container {
   background-image: url(../images/about.jpg);
   background-position: center;
@@ -96,7 +96,7 @@ body {
   font-weight: 500;
 }
 
-/* ----------------------- Background */
+/* ---- Background ---- */
 
 .background-container {
   position: relative;
@@ -134,7 +134,7 @@ p.istitute {
   padding-top: 49px;
   margin-top: -49px;
 }
-/* ----------------------- Skills / Experiences */
+/* ---- Skills / Experiences ---- */
 
 .skills h3,
 .skills h4,
@@ -172,7 +172,7 @@ p.istitute {
   padding-top: 49px;
   margin-top: -49px;
 }
-/* ----------------------- Portfolio */
+/* ---- Portfolio ---- */
 
 .portfolio-container {
   background-color: #e7e7e7;
@@ -209,7 +209,7 @@ a.media-card {
 
 
 
-/* ----------------------- Contact */
+/* ---- Contact ---- */
 
 .contact-container {
   background-image: url(../images/vortice.jpg);
@@ -278,7 +278,7 @@ label {
   padding-top: 49px;
   margin-top: -49px;
 }
-/* ----------------------- Footer */
+/* ---- Footer ---- */
 
 footer {
   background: linear-gradient(to right, #5382ad, #6e53ad);
@@ -288,11 +288,8 @@ footer {
 .personal-info,
 .social-media {
   margin: 0;
-  padding: 15px;
+  padding: 8px;
   color: #e7e7e7;
-}
-.personal-info {
-  min-width: 245px;
 }
 
 .personal-info p {
@@ -300,24 +297,16 @@ footer {
 }
 
 .social-media i {
-  font-size: 40px;
+  font-size: 38px;
   margin: 10px 20px 10px 0;
+  transition: transform .2s;
 }
 
-/* ----------------------
-
-@media (max-width: 370px) {
-  .about-square {
-    margin-top: 64px;
-  }
-
-  .about-square h1 {
-    font-family: "Anton", sans-serif;
-    font-size: 50px;
-  }
+.zoom:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
---------------- XXX */
+/* ---- Media Queries ---- */
 
 @media only screen and (orientation: landscape) {
   .about-square h1 {
