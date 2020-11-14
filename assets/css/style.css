@@ -177,15 +177,37 @@ p.istitute {
 .portfolio-container {
   background-color: #e7e7e7;
 }
-.media-card {
-  font-size: 25px;
-  padding-right: 10px;
-}
 
 #portfolio-point {
   padding-top: 49px;
   margin-top: -49px;
 }
+
+.card-link {
+    position: relative;
+}
+
+.media-card i {
+    margin: 0;
+    padding: 0;
+}
+
+a.media-card {
+  position: absolute;
+  font-size: 43px;
+  margin: 0;
+  top: -14px;
+  right: 0;
+  display: block;
+  
+  
+}
+
+.btn-work-progress {
+ margin: 0;
+}
+
+
 
 /* ----------------------- Contact */
 
@@ -260,6 +282,7 @@ label {
 
 footer {
   background: linear-gradient(to right, #5382ad, #6e53ad);
+  box-shadow: inset 0px 5px 8px #0000007c;
 }
 
 .personal-info,
