@@ -51,9 +51,11 @@ body {
 .about-square h1 {
   font-weight: 600;
   font-family: "Anton", sans-serif;
-
   color: #e7e7e7;
   text-shadow: 5px 10px 15px #314c74;
+  text-align: center;
+  margin-bottom: 1vh;
+  padding: 15vh 2vw 0 2vw;
 }
 
 .about-square {
@@ -61,12 +63,6 @@ body {
   margin: auto;
 
   margin-top: 49px;
-}
-
-.line-developer {
-  text-align: center;
-  margin-bottom: 1vh;
-  padding: 15vh 2vw 0 2vw;
 }
 
 .block-divider {
@@ -81,7 +77,7 @@ body {
   text-align: center;
   font-family: "Barlow", sans-serif;
   color: rgb(48, 48, 48);
-  font-size: 35px;
+  font-size: 36px;
   padding: 0.8vh 0;
   margin: 0;
 }
@@ -184,12 +180,12 @@ p.istitute {
 }
 
 .card-link {
-    position: relative;
+  position: relative;
 }
 
 .media-card i {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a.media-card {
@@ -199,15 +195,11 @@ a.media-card {
   top: -14px;
   right: 0;
   display: block;
-  
-  
 }
 
 .btn-work-progress {
- margin: 0;
+  margin: 0;
 }
-
-
 
 /* ---- Contact ---- */
 
@@ -299,16 +291,19 @@ footer {
 .social-media i {
   font-size: 38px;
   margin: 10px 20px 10px 0;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 a.footer-logo {
-    text-decoration: none;
-     color: #e7e7e7;
+  text-decoration: none;
+  color: #e7e7e7;
+  font-size: 38px;
 }
 
 .zoom:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /* ---- Media Queries ---- */
@@ -324,5 +319,11 @@ a.footer-logo {
   .about-square h1 {
     font-size: 17vmin;
     color: #e7e7e7;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-hello {
+    font-size: 22px;
   }
 }
