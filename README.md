@@ -153,17 +153,23 @@ The buttons 'In Progress' are disabled.
 
 The links-anchor in the navbar works and point to the right section, the navbar collapse and dropdown works.
 
+Responsive behavior of rows and columns works correctly.
+
 In order to have a pleasing responsive visualization of the landing page I created and styled two media queries for portrait and landscape mode.
 
 I viewed my website on several devices and no problem was found.
 
-Screen reader accessibility has been improved by creating text descriptions, when it is needed, accessible only by them.
+Removed dead rules in CSS.
+
+Format CSS and HTML.
+
+Screen reader accessibility has been improved (from 93% to 95%) by creating text descriptions, when it is needed, accessible only by sreen readers.
 
 All the images are saved with a web compression in photoshop. JPGs are lighter and the browser run faster with a great improvement in performance.
 
 A Favicon is added as PNG format.
 
-
+The site is compatible with Chrome and other browsers, all vendor prefixes added.
 
 Improvement in Chrome-Lighthouse development test  
 
