@@ -1,8 +1,7 @@
 # [Nicola’s online CV](https://nicolalampis.github.io/Nicola_online_CV/)
 
-Screenshot  ****
-Concept  ****
-Wireframe  ****
+![](development/screenshot.png)
+[Live Demo](http://ami.responsivedesign.is/?url=https://nicolalampis.github.io/Nicola_online_CV/)
 
 > - Overview
 > - Description
@@ -148,9 +147,9 @@ All the images are saved with a web compression in photoshop. JPGs are lighter a
 A Favicon is added as PNG format.
 
 Improvement in Chrome-Lighthouse development test  ****
-![1](development/lighthouse1)
-![2](development/lighthouse2)
-![3](development/lighthouse3)
+![1](development/lighthouse1.png)
+![2](development/lighthouse2.png)
+![3](development/lighthouse3.png)
 
 ## Project barriers and the solutions
 
