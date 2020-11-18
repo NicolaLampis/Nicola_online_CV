@@ -63,7 +63,8 @@ A recruiter wants to:
 > - see work history.
 > - discover a portfolio that showcases the actual proficiency of work skills.
 > - get personal details.
-> - easily contact the candidate.  **** 
+> - easily contact the candidate.
+
 I've decided on a clean UX for users. It is useful for the scope and it fits my current skill set.
 The focus is on keeping things simple and useful.
 
@@ -83,13 +84,15 @@ The focus is on keeping things simple and useful.
 
 #### Colours
 
-Main color and empty space is white, with black text and accents in orange for titols.  ****
-Background images are mainly blue (#314c74) with violet transitions.
+Main color and empty space is white, with black text and accents in orange for titles.  ****
+Background images are mainly blue (#314c74) with violet transitions.  **** 
+I designed the two background images in 3D modeling  ****
+
 Blue provide a calm mood and a professional impression. Orange is more vibrant and enlighten sections and important content. 
 
 #### Typography
 
-Anton is a free font by GoogleFonts. I used as main titol of the landing page and the titols of the sections.  ****
+Anton is a free font by GoogleFonts. I used as main title of the landing page and the titles of the sections.  ****
 Is a robust and squared font.  ****
 Barlow is again by GoogleFonts, I chose it because is slightly stretched in height, just like the Anton font, and is also very formal and minimal.
 
@@ -98,19 +101,55 @@ Barlow is again by GoogleFonts, I chose it because is slightly stretched in heig
 The site use a navbar feature in Bootstrap together with cards.  ****
 The navbar is fixed on top and give easy access to all the site.  ****
 Card provide clarity and order through all the contents.  ****
-In the future, I would like to add further projects that are now shown as in progress. 
+
+### Features Left to Implement
+
+In the future, I would like to add further projects that are now shown as in progress.  ****
+Implement the contact section with real data post.
 
 ## Technologies Used
 
 HTML  ****
 CSS  ****
-Bootstrap (version 4.5.2)
+GitPod  ****
+Bootstrap (version 4.5.2)  ****
+Google Fonts  ****
+GitHub
 
 ## References for learning
 
-
+Bootstrap documentation  ****
+https://www.w3schools.com/   ****
+https://stackoverflow.com/  ****
+https://web.dev/
 
 ## Testing
+
+If you try to submit the contact form with an invalid email address, a popup will let you know the error.  **** 
+I added a 'required' attribute to the 'name,' 'email,' and 'message' fields, so no fields will be missing, and is possible to submit only in a correct way.  ****
+
+I used 'target="_blank"' so all the external links and the CV will open in a new tab of the browser.  **** 
+In addition to that I used 'rel="noreferrer"' attribute to improve performance and prevent security vulnerabilities.  **** 
+
+All links have been manually tested to ensure that they are pointing to the correct destination.
+
+The buttons 'In Progress' are disabled.
+
+The links-anchor in the navbar works and point to the right section, the navbar collapse and dropdown works.
+
+In order to have a pleasing responsive visualization of the landing page I created and styled two media queries for portrait and landscape mode.
+
+Screen reader accessibility has been improved by creating text descriptions, when it is needed, accessible only by them.
+
+All the images are saved with a web compression in photoshop. JPGs are lighter and the browser run faster with a great improvement in performance.
+
+A Favicon is added as PNG format.
+
+[CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
+This document validates as CSS level 3 + SVG 
+
+[Markup Validation Service](https://validator.w3.org/)
+Document checking completed. No errors or warnings to show.
 
 ## Project barriers and the solutions
 
