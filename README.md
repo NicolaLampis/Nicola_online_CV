@@ -139,11 +139,22 @@ The links-anchor in the navbar works and point to the right section, the navbar 
 
 In order to have a pleasing responsive visualization of the landing page I created and styled two media queries for portrait and landscape mode.
 
+I viewed my website on several devices and no problem was found.
+
 Screen reader accessibility has been improved by creating text descriptions, when it is needed, accessible only by them.
 
 All the images are saved with a web compression in photoshop. JPGs are lighter and the browser run faster with a great improvement in performance.
 
 A Favicon is added as PNG format.
+
+Improvement in Chrome-Lighthouse development test  ****
+![1](development/lighthouse1)
+![2](development/lighthouse2)
+![3](development/lighthouse3)
+
+## Project barriers and the solutions
+
+## Code validity
 
 [CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
 This document validates as CSS level 3 + SVG 
@@ -151,16 +162,29 @@ This document validates as CSS level 3 + SVG
 [Markup Validation Service](https://validator.w3.org/)
 Document checking completed. No errors or warnings to show.
 
-## Project barriers and the solutions
-
-## Code validity
-
 ## Version Control
+
+The history of every file in this repository is stored in Git and can be restored.
+Logs shows the date, author and messages commited.
+The 'Reset' command will restore the version selected. 
 
 ## Deployment
 
+This project was developed using the GitPod IDE, committed to git and pushed to GitHub.
+
+To deploy this page to GitHub Pages, first go to the GitHub repository.  ****
+Go to 'GitHub Pages' section.  ****
+Under 'Source' select 'Branch Master' and the page is automatically refreshed, the website is deployed.
+[You can run the site here](https://nicolalampis.github.io/Nicola_online_CV/)
+
 ## Credits
+
+Image from Duetti Pizza is property of Duetti.  ****
+Image from Moebius band obtained from the Artist Emanuele "SKAN" Boi.  ****
+Image from Sona pickups obtained from Nicola Lampis.
 
 ## Acknowledgments
 
-## Support
+My mentor Medale Oluwafemi guided me towards the content creation and the responsive design of the site.  **** 
+I received inspiration for this project from his experience and from previus projects done by students of Code Institute.
+
