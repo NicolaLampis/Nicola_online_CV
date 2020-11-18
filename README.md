@@ -11,13 +11,11 @@
 > - Technologies Used
 > - References for learning
 > - Testing
-> - Project barriers and the solutions
 > - Code validity
 > - Version Control
 > - Deployment
 > - Credits
 > - Acknowledgments
-> - Support
 
 ## Overview
 
@@ -40,12 +38,14 @@ This website is only about one subject, and it is important to have a first good
 ### STRATEGY PLANE
 
 #### Project goals
+
 > - Make a good impression for potential employers. Get hired. 
 > - Get to know Nicola, learn about his skills and his works. Showcase the information needed by an employer.
 > - Generating a professional impression and a sense of trust.
 > - Showcase both coding skills and design skills.
  
 #### Customer goals
+
 > - Design a website with the mobile-first approach
 > - Clear info summarised and Easy-to-Read. The content is adequate, understandable and not overwhelming.
 > - Imagery used for intuitive explanation of work skills.
@@ -56,6 +56,7 @@ This website is only about one subject, and it is important to have a first good
 > - Simple design and architecture of the website, fast to view.
 
 ### SCOPE
+
 How can employers easily evaluate Nicola’s skills?  
 
 What does the employer need to do it?  
@@ -140,7 +141,7 @@ https://web.dev/
 
 If you try to submit the contact form with an invalid email address, a popup will let you know the error.  
 
-I added a 'required' attribute to the 'name,' 'email,' and 'message' fields, so no fields will be missing, and is possible to submit only in a correct way.  ****
+I added a 'required' attribute to the 'name,' 'email,' and 'message' fields, so no fields will be missing, and is possible to submit only in a correct way.  
 
 I used 'target="_blank"' so all the external links and the CV will open in a new tab of the browser.  
 
@@ -162,6 +163,8 @@ All the images are saved with a web compression in photoshop. JPGs are lighter a
 
 A Favicon is added as PNG format.
 
+
+
 Improvement in Chrome-Lighthouse development test  
 
 ![1](development/lighthouse1.png)
@@ -177,6 +180,9 @@ This document validates as CSS level 3 + SVG
 
 [Markup Validation Service](https://validator.w3.org/)
 Document checking completed. No errors or warnings to show.
+
+[Vendor Prefixes](https://autoprefixer.github.io/)
+Autoprefixer parses the CSS and adds vendor prefixes
 
 ## Version Control
 

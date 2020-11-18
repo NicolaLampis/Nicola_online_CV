@@ -16,6 +16,8 @@ body {
 .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
 }
 
 .navbar-toggler,
@@ -44,7 +46,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   min-height: 100vh;
 }
 
@@ -71,6 +75,8 @@ body {
   height: 5px;
   margin: 5vh auto;
   box-shadow: 5px 10px 15px #314c74;
+  -webkit-box-shadow: 5px 10px 15px #314c74;
+  -moz-box-shadow: 5px 10px 15px #314c74;
 }
 
 .about-hello {
@@ -208,6 +214,9 @@ a.media-card {
   background-image: url(../images/vortice.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center;
 }
 
@@ -240,6 +249,8 @@ form {
   resize: vertical;
   border: 1px solid #e7e7e780;
   border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
 }
 
 .cell {
@@ -275,7 +286,13 @@ label {
 
 footer {
   background: linear-gradient(to right, #5382ad, #6e53ad);
+  background: -webkit-gradient(linear, left top, right top, from(#5382ad), to(#6e53ad));
+  background: -webkit-linear-gradient(left, #5382ad, #6e53ad);
+  background: -moz-linear-gradient(left, #5382ad, #6e53ad);
+  background: -o-linear-gradient(left, #5382ad, #6e53ad);
   box-shadow: inset 0px 5px 8px #0000007c;
+  -webkit-box-shadow: inset 0px 5px 8px #0000007c;
+  -moz-box-shadow: inset 0px 5px 8px #0000007c;
 }
 
 .personal-info,
@@ -292,7 +309,12 @@ footer {
 .social-media i {
   font-size: 38px;
   margin: 10px 20px 10px 0;
+  transition: -webkit-transform 0.2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -moz-transition: transform 0.2s, -moz-transform 0.2s;
   transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s, -moz-transform 0.2s, -o-transform 0.2s;
 }
 
 a.footer-logo {
