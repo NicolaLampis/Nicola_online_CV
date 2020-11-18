@@ -85,6 +85,8 @@ The focus is on keeping things simple and useful.
  I wanted them to know what I do and who I am, be able to quickly access my resume and work that I've done, providing a short summary of main technologies and tools that I use.  **** 
  A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access.
 
+[Wireframe - First concept of the site](development/wireframe.jpg)
+
 #### Colours
 
 Main color and empty space is white, with black text and accents in orange for titles.  
