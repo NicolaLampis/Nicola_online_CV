@@ -29,7 +29,8 @@ This is an online CV + Portfolio for Nicola, who is a designer and full stack de
 
 ## User Stories
 
-The site's users are employers or recruiters.  **** 
+The site's users are employers or recruiters.  
+
 An employer expect to see a showcase of Nicola's work. A recruiter I expect to see a showcase of Nicola's resume.
 
 ## UX
@@ -55,8 +56,10 @@ This website is only about one subject, and it is important to have a first good
 > - Simple design and architecture of the website, fast to view.
 
 ### SCOPE
-How can employers easily evaluate Nicola’s skills?  ****
-What does the employer need to do it?  ****
+How can employers easily evaluate Nicola’s skills?  
+
+What does the employer need to do it?  
+
 A recruiter wants to:
 > - view the skill sets.
 > - see work history.
@@ -83,52 +86,65 @@ The focus is on keeping things simple and useful.
 
 #### Colours
 
-Main color and empty space is white, with black text and accents in orange for titles.  ****
-Background images are mainly blue (#314c74) with violet transitions.  **** 
-I designed the two background images in 3D modeling  ****
+Main color and empty space is white, with black text and accents in orange for titles.  
+
+Background images are mainly blue (#314c74) with violet transitions.  
+
+I designed the two background images in 3D modeling. 
 
 Blue provide a calm mood and a professional impression. Orange is more vibrant and enlighten sections and important content. 
 
 #### Typography
 
-Anton is a free font by GoogleFonts. I used as main title of the landing page and the titles of the sections.  ****
-Is a robust and squared font.  ****
+Anton is a free font by GoogleFonts. I used as main title of the landing page and the titles of the sections.  
+
+Is a robust and squared font.  
+
 Barlow is again by GoogleFonts, I chose it because is slightly stretched in height, just like the Anton font, and is also very formal and minimal.
 
 ## Features
 
-The site use a navbar feature in Bootstrap together with cards.  ****
-The navbar is fixed on top and give easy access to all the site.  ****
-Card provide clarity and order through all the contents.  ****
+The site use a navbar feature in Bootstrap together with cards. 
+
+The navbar is fixed on top and give easy access to all the site.  
+
+Card provide clarity and order through all the contents.  
+
 
 ### Features Left to Implement
 
-In the future, I would like to add further projects that are now shown as in progress.  ****
+In the future, I would like to add further projects that are now shown as in progress.  
+
 Implement the contact section with real data post.
 
 ## Technologies Used
 
-HTML  ****
-CSS  ****
-GitPod  ****
-Bootstrap (version 4.5.2)  ****
-Google Fonts  ****
-GitHub
+> - HTML  
+> - CSS  
+> - GitPod  
+> - Bootstrap (version 4.5.2)  
+> - Google Fonts  
+> - GitHub
 
 ## References for learning
 
-Bootstrap documentation  ****
-https://www.w3schools.com/   ****
-https://stackoverflow.com/  ****
+Bootstrap documentation  
+
+https://www.w3schools.com/   
+
+https://stackoverflow.com/ 
+
 https://web.dev/
 
 ## Testing
 
-If you try to submit the contact form with an invalid email address, a popup will let you know the error.  **** 
+If you try to submit the contact form with an invalid email address, a popup will let you know the error.  
+
 I added a 'required' attribute to the 'name,' 'email,' and 'message' fields, so no fields will be missing, and is possible to submit only in a correct way.  ****
 
-I used 'target="_blank"' so all the external links and the CV will open in a new tab of the browser.  **** 
-In addition to that I used 'rel="noreferrer"' attribute to improve performance and prevent security vulnerabilities.  **** 
+I used 'target="_blank"' so all the external links and the CV will open in a new tab of the browser.  
+
+In addition to that I used 'rel="noreferrer"' attribute to improve performance and prevent security vulnerabilities.  
 
 All links have been manually tested to ensure that they are pointing to the correct destination.
 
@@ -146,7 +162,8 @@ All the images are saved with a web compression in photoshop. JPGs are lighter a
 
 A Favicon is added as PNG format.
 
-Improvement in Chrome-Lighthouse development test  ****
+Improvement in Chrome-Lighthouse development test  
+
 ![1](development/lighthouse1.png)
 ![2](development/lighthouse2.png)
 ![3](development/lighthouse3.png)
@@ -164,26 +181,32 @@ Document checking completed. No errors or warnings to show.
 ## Version Control
 
 The history of every file in this repository is stored in Git and can be restored.
+
 Logs shows the date, author and messages commited.
+
 The 'Reset' command will restore the version selected. 
 
 ## Deployment
 
 This project was developed using the GitPod IDE, committed to git and pushed to GitHub.
 
-To deploy this page to GitHub Pages, first go to the GitHub repository.  ****
-Go to 'GitHub Pages' section.  ****
+To deploy this page to GitHub Pages, first go to the GitHub repository.  
+
+Go to 'GitHub Pages' section.  
+
 Under 'Source' select 'Branch Master' and the page is automatically refreshed, the website is deployed.
+
 [You can run the site here](https://nicolalampis.github.io/Nicola_online_CV/)
 
 ## Credits
 
-Image from Duetti Pizza is property of Duetti.  ****
-Image from Moebius band obtained from the Artist Emanuele "SKAN" Boi.  ****
-Image from Sona pickups obtained from Nicola Lampis.
+> - Image from Duetti Pizza is property of Duetti.  
+> - Image from Moebius band obtained from the Artist Emanuele "SKAN" Boi. 
+> - Image from Sona pickups obtained from Nicola Lampis.
 
 ## Acknowledgments
 
-My mentor Medale Oluwafemi guided me towards the content creation and the responsive design of the site.  **** 
+My mentor Medale Oluwafemi guided me towards the content creation and the responsive design of the site.  
+
 I received inspiration for this project from his experience and from previus projects done by students of Code Institute.
 
