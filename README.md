@@ -29,7 +29,7 @@ This is an online CV + Portfolio for Nicola, who is a designer and full stack de
 
 The site's users are employers or recruiters.  
 
-An employer expect to see a showcase of Nicola's work. A recruiter I expect to see a showcase of Nicola's resume.
+An employer expects to see a showcase of Nicola's work. A recruiter I expect to see a showcase of Nicola's resume.
 
 ## UX
 
@@ -55,7 +55,7 @@ This website is only about one subject, and it is important to have a first good
 > - Users can contact the customer in a variety of ways, through contact form, phone, email and Social Media.
 > - Simple design and architecture of the website, fast to view.
 
-### SCOPE
+### SCOPE PLANE
 
 How can employers easily evaluate Nicola’s skills?  
 
@@ -71,21 +71,37 @@ A recruiter wants to:
 I've decided on a clean UX for users. It is useful for the scope and it fits my current skill set.
 The focus is on keeping things simple and useful.
 
-### STRUCTURE
+### STRUCTURE PLANE
 
 > - I have chosen a one page website design. 
 > - Responsive design, to be visualized in all screens.
 > - The structure is linear and allows users to have a general impression by scrolling through the sections in a fast and simple way without losing anything. 
 > - With short and focused paragraphs of content, users can quickly assimilate the information and imagery, so the level of attention remains constant.
-> - Informations provided is enough and not overwhelming. Specific extra infos are accessible through selection and direct user interaction.
+> - Informations provided are enough and not overwhelming. Specific extra infos are accessible through selection and direct user interaction.
 > - Animations are simple and essential.
 > - The user can choose the preferred way of contacting the candidate via email, phone, contact form and links to Social Media at the bottom of the page and in the Footer.
 > - The fixed navbar helps to easily jump from one section to another.
 
- I wanted them to know what I do and who I am, be able to quickly access my resume and work that I've done, providing a short summary of main technologies and tools that I use.  **** 
+ I wanted them to know what I do and who I am, be able to quickly access my resume and work that I've done, providing a short summary of main technologies and tools that I use. 
  A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access.
 
+### SKELETON PLANE
+
+> - One page website with five sections
+> - About, Background, Experiences, Portfolio and Contact sections.
+> - In the navbar and footer there is a link that open, in a new tab, the CV.
+> - Navbar fixed on top, five heading pointing to the relative section and one pointing to the PDF CV.
+> - Contact form with Name, Email and Message imputs.
+> - Personal links to Linkedin, GitHub and Instagram are accessible in the footer.
+> - In the footer there are phone and email contacts.
+
 [Wireframe - First concept of the site](development/wireframe.jpg)
+
+### SURFACE PLANE
+
+The visual experience is relaxing but not boring. White is the main background. Blue is another style of background with minor violet accents.
+
+Orange is the main accent, eye-catcher, used for titles, contents and divider.
 
 #### Colours
 
@@ -93,9 +109,9 @@ Main color and empty space is white, with black text and accents in orange for t
 
 Background images are mainly blue (#314c74) with violet transitions.  
 
-I designed the two background images in 3D modeling. 
+I designed the two background images using 3D modeling. 
 
-Blue provide a calm mood and a professional impression. Orange is more vibrant and enlighten sections and important content. 
+Blue provides a calm mood and a professional impression. Orange is more vibrant and enlightens sections and important content. 
 
 #### Typography
 
@@ -103,22 +119,22 @@ Anton is a free font by GoogleFonts. I used as main title of the landing page an
 
 Is a robust and squared font.  
 
-Barlow is again by GoogleFonts, I chose it because is slightly stretched in height, just like the Anton font, and is also very formal and minimal.
+Barlow is again by GoogleFonts, I chose it because it is slightly stretched in height, just like the Anton font, and is also very formal and minimal.
 
 ## Features
 
-The site use a navbar feature in Bootstrap together with cards. 
+The site uses a navbar feature in Bootstrap together with cards. 
 
-The navbar is fixed on top and give easy access to all the site.  
+The navbar is fixed on top and gives easy access to all the site.  
 
-Card provide clarity and order through all the contents.  
+Cards provide clarity and order through all the contents.  
 
 
 ### Features Left to Implement
 
 In the future, I would like to add further projects that are now shown as in progress.  
 
-Implement the contact section with real data post.
+Implement the contact section with a real data post when the technology is learnt.
 
 ## Technologies Used
 
@@ -150,10 +166,16 @@ I used 'target="_blank"' so all the external links and the CV will open in a new
 In addition to that I used 'rel="noreferrer"' attribute to improve performance and prevent security vulnerabilities.  
 
 All links have been manually tested to ensure that they are pointing to the correct destination.
+> - Navbar links tested - logo, about, background, experiences, portfolio, contact, download CV.
+> - Portfolio links tested - icon instagram, icon facebook, button Moebius Band.
+> - Contact form, input tested - name requested, email requested, email format with @ simbol, message requested.
+> - Footer links tested - links icon (CV, linkedin, github, instagram)
+> - Footer icons amination tested. 
+> - Footer and Navbar - download CV open the PDF in a new tab.
 
 The buttons 'In Progress' are disabled.
 
-The links-anchor in the navbar works and point to the right section, the navbar collapse and dropdown works.
+The navbar collapse and dropdown works. Mobile tested
 
 Responsive behavior of rows and columns works correctly.
 
@@ -163,23 +185,21 @@ I viewed my website on several devices and no problem was found.
 
 Removed dead rules in CSS.
 
-Format CSS and HTML.
+Format and indent CSS and HTML.
 
-Screen reader accessibility has been improved (from 93% to 95%) by creating text descriptions, when it is needed, accessible only by sreen readers.
+Screen reader accessibility has been improved (from 93% to 95%) by creating text descriptions, when it is needed, accessible only by screen readers.
 
-All the images are saved with a web compression in photoshop. JPGs are lighter and the browser run faster with a great improvement in performance.
+All the images are saved with a web compression in photoshop. JPGs are lighter and the browser runs faster with a great improvement in performance.
 
 A Favicon is added as PNG format.
 
 The site is compatible with Chrome and other browsers, all vendor prefixes added.
 
-Improvement in Chrome-Lighthouse development test  
+Improvement in Chrome-Lighthouse development tests  
 
 ![1](development/lighthouse1.png)
 ![2](development/lighthouse2.png)
 ![3](development/lighthouse3.png)
-
-## Project barriers and the solutions
 
 ## Code validity
 
@@ -196,7 +216,7 @@ Autoprefixer parses the CSS and adds vendor prefixes
 
 The history of every file in this repository is stored in Git and can be restored.
 
-Logs shows the date, author and messages commited.
+Logs shows the date, author and messages committed.
 
 The 'Reset' command will restore the version selected. 
 
@@ -204,11 +224,13 @@ The 'Reset' command will restore the version selected.
 
 This project was developed using the GitPod IDE, committed to git and pushed to GitHub.
 
-To deploy this page to GitHub Pages, first go to the GitHub repository.  
-
-Go to 'GitHub Pages' section.  
-
-Under 'Source' select 'Branch Master' and the page is automatically refreshed, the website is deployed.
+> - To deploy this page to GitHub Pages, first I wnet to the GitHub repository.
+> - Under the 'Settings section', scrolled down to GitHub 'Pages' section.
+> - Under the 'Source' drop-down, the 'Master branch' was selected. The page was automatically refreshed and the website deployed.
+> - The code can be run locally through clone or download.
+> - Open the repository, click on the green 'Code' button and select either 'clone or download'.
+> - The Clone option provides a url, which you can use on your desktop IDE.
+> - The Download ZIP option download a ZIP file you can use on your local machine.
 
 [You can run the site here](https://nicolalampis.github.io/Nicola_online_CV/)
 
@@ -217,10 +239,12 @@ Under 'Source' select 'Branch Master' and the page is automatically refreshed, t
 > - Image from Duetti Pizza is property of Duetti.  
 > - Image from Moebius band obtained from the Artist Emanuele "SKAN" Boi. 
 > - Image from Sona pickups obtained from Nicola Lampis.
+> - All text content is written by Nicola Lampis.
+> - Background images (About and Contact section) are modeled and rendered on Rhinoceros by Nicola Lampis.
 
 ## Acknowledgments
 
 My mentor Medale Oluwafemi guided me towards the content creation and the responsive design of the site.  
 
-I received inspiration for this project from his experience and from previus projects done by students of Code Institute.
+I received inspiration for this project from his experience and from previous projects done by students of Code Institute.
 
