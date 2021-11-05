@@ -28,7 +28,8 @@ body {
 .navbar {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
-  background-color: #e7e7e7e3;
+  background-color: #f0f0f01e;
+  backdrop-filter: blur(12px);
 }
 
 .navbar-brand {
@@ -186,22 +187,24 @@ p.istitute {
   margin-top: -49px;
 }
 
-.card-link {
+.card-body {
   position: relative;
+  padding-bottom: 50px;  
+}
+
+.card-link {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 40px);
+  height: 38px;
 }
 
 .media-card i {
-  margin: 0;
-  padding: 0;
-}
-
-a.media-card {
   position: absolute;
-  font-size: 43px;
-  margin: 0;
-  top: -14px;
+  top: -3px;
   right: 0;
-  display: block;
+  padding: 0;
+  font-size: 43px;
 }
 
 .btn-work-progress {
